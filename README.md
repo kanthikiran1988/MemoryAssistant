@@ -1,6 +1,6 @@
-# LangChain Function Calling Memory Assistant
+# AI Memory Assistant with LangChain
 
-A demonstration of LangChain's function calling capabilities with OpenAI, featuring a persistent memory system using Chroma vector database. This assistant can remember information and retrieve it through natural conversation.
+A smart AI assistant that uses LangChain and OpenAI's function calling to store and retrieve information using semantic search. Built with Chroma vector database for persistent memory storage.
 
 ## 🌟 Features
 
@@ -21,8 +21,8 @@ A demonstration of LangChain's function calling capabilities with OpenAI, featur
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/FunctionApp-FunctionCalling.git
-cd FunctionApp-FunctionCalling
+git clone https://github.com/yourusername/ai-memory-assistant.git
+cd ai-memory-assistant
 ```
 
 2. Create and activate a virtual environment:
@@ -45,7 +45,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 1. Start the memory assistant:
 ```bash
-python function_calling_demo.py
+python memory_assistant.py
 ```
 
 2. Interact with the assistant using natural language:
@@ -61,13 +61,13 @@ On 2024-03-14T15:30:00: John likes pizza
 ## 📁 Project Structure
 
 ```
-FunctionApp-FunctionCalling/
-├── function_calling_demo.py    # Main application file
-├── memory_utils.py            # Memory storage implementation
-├── requirements.txt           # Project dependencies
-├── .env                      # Environment variables (not in git)
-├── .gitignore               # Git ignore rules
-└── README.md                # Documentation
+ai-memory-assistant/
+├── memory_assistant.py      # Main application with LangChain function calling
+├── vector_store.py         # Vector database implementation using Chroma
+├── requirements.txt        # Project dependencies
+├── .env                   # Environment variables (not in git)
+├── .gitignore            # Git ignore rules
+└── README.md             # Documentation
 ```
 
 ## 💡 Usage Examples
