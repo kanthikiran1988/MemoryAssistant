@@ -21,7 +21,7 @@ A smart AI assistant that uses LangChain and OpenAI's function calling to store 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-memory-assistant.git
+git clone https://github.com/kanthikiran1988/MemoryAssistant.git
 cd ai-memory-assistant
 ```
 
